@@ -1,0 +1,11 @@
+name: rust-password-generator
+version: "0.1"
+author: "MyYogurt"
+about: "Generates passwords using rust"
+args:
+  - length:
+    short: l
+    long: length
+    multiple: false
+    takes_value: true
+    help: "Specifies the length of the password. Default: 8 characters"
