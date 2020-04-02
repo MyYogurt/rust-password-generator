@@ -40,7 +40,7 @@ fn main() {
             .long("copy")
             .value_name("COPY")
             .takes_value(false)
-            .help("Specifies whether the password should be copied to the user's keyboard. Default: false"))
+            .help("Specifies whether the password should be copied to the user's keyboard. Not functional on Linux in testing. Default: false"))
         .get_matches();
     //Parse for password length
     let mut password_length: usize = 8; //default of 8 if no argument passed
