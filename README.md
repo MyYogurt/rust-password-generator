@@ -40,3 +40,13 @@ Linux:
 To generate a password with special characters and a length of 5:
 
 `./rust-password-generator.exe -l 5 -s`
+
+## Known Problems
+
+The copy to clipboard feature is currently not functional in Linux in testing.
+
+Please create a new issue if you find more bugs.
+
+## License
+
+This program is licensed under the GNU GPLv3
